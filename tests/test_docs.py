@@ -498,15 +498,15 @@ def test_github_templates():
 
 def test_workflows_are_pinned_least_privilege_and_complete():
     tests, build = text(".github/workflows/tests.yml"), text(".github/workflows/build.yml")
-    pins = {
-        "actions/checkout": "3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1",
-        "actions/setup-python": "5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0",
-    }
+    allowed = {"actions/checkout", "actions/setup-python"}               # the only actions the workflows may use
     for body in (tests, build):
         for line in re.findall(r"uses: (\S+)(.*)", body):
             name, _, sha = line[0].partition("@")
+            assert name in allowed, f"{name} is not one of the actions this project uses"
             assert re.fullmatch(r"[0-9a-f]{40}", sha), f"{name} is not pinned to a commit"
-            assert f"{sha}{line[1]}".strip() == pins[name], name
+            # the version stays in a comment so a reader (and Dependabot) can tell what the commit is; the commit itself changes
+            # whenever Dependabot proposes an update, so it is not compared with a fixed value here
+            assert re.fullmatch(r"\s+# v\d+\.\d+\.\d+", line[1]), f"{name} has no version comment"
         assert "permissions:\n  contents: read" in body
         assert "concurrency:" in body and "cancel-in-progress: true" in body
         assert "secrets." not in body and "pull_request_target" not in body
