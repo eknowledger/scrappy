@@ -1,0 +1,24 @@
+{
+ "total": 1,
+ "items": [
+  {
+   "type": "app",
+   "name": "Tidepool Tactics - Chapter 5",
+   "id": 9000002,
+   "price": {
+    "currency": "USD",
+    "initial": 1999,
+    "final": 1999
+   },
+   "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/1ea0d097de0c8a104a6b4d12e8955da73b305ae6/capsule_231x87.jpg?t=1789515206",
+   "metascore": "",
+   "platforms": {
+    "windows": true,
+    "mac": false,
+    "linux": false
+   },
+   "streamingvideo": false,
+   "controller_support": "full"
+  }
+ ]
+}

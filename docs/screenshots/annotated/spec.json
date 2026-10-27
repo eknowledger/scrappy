@@ -1,0 +1,572 @@
+{
+  "window-tour": {
+    "alt": "The Scrappy window with fourteen numbered callouts: the system box, the filter and the game list on the left; the name box, the Search button and the match list above four panels (logo, box art, image and trailer) in the middle; the details form and the Save, Skip and Undo buttons on the right; the status line at the bottom and the Tools menu at the top.",
+    "callouts": [
+      {
+        "number": 1,
+        "target": "system_box",
+        "label": "System box",
+        "side": "l"
+      },
+      {
+        "number": 2,
+        "target": "filter_box",
+        "label": "Filter box",
+        "side": "l"
+      },
+      {
+        "number": 3,
+        "target": "list",
+        "label": "Game list",
+        "side": "l@0.4"
+      },
+      {
+        "number": 4,
+        "target": "search_edit",
+        "label": "Name box",
+        "side": "t"
+      },
+      {
+        "number": 5,
+        "target": "search_btn",
+        "label": "Search button",
+        "side": "t"
+      },
+      {
+        "number": 6,
+        "target": "match_box",
+        "label": "Match list",
+        "side": "t"
+      },
+      {
+        "number": 7,
+        "target": "title:logo_panel",
+        "label": "Logo (transparent) panel",
+        "side": "r"
+      },
+      {
+        "number": 8,
+        "target": "title:box_panel",
+        "label": "Box art panel",
+        "side": "r"
+      },
+      {
+        "number": 9,
+        "target": "title:image_panel",
+        "label": "Image panel",
+        "side": "r"
+      },
+      {
+        "number": 10,
+        "target": "title:video_panel",
+        "label": "Trailer / video panel",
+        "side": "r"
+      },
+      {
+        "number": 11,
+        "target": "union:name_edit|desc_edit",
+        "label": "Details form",
+        "side": "r@0.03"
+      },
+      {
+        "number": 12,
+        "target": "union:save_btn|skip_btn|undo_btn",
+        "label": "Save, Skip and Undo last save",
+        "side": "r"
+      },
+      {
+        "number": 13,
+        "target": "status_label",
+        "label": "Status line",
+        "side": "b@0.15"
+      },
+      {
+        "number": 14,
+        "target": "action:Tools",
+        "label": "Tools menu",
+        "side": "t"
+      }
+    ]
+  },
+  "slot-panel": {
+    "alt": "A close-up of the Logo (transparent) panel with ten numbered callouts: the title, the picture, the caption with the source and size, the Remove background box, the Make text logo button, the two arrow buttons, the Include box, and the Paste link, Choose file and Web search buttons.",
+    "callouts": [
+      {
+        "number": 1,
+        "target": "title:logo_panel",
+        "label": "Panel title",
+        "side": "t"
+      },
+      {
+        "number": 2,
+        "target": "logo_panel.preview",
+        "label": "Picture",
+        "side": "t@0.5"
+      },
+      {
+        "number": 3,
+        "target": "logo_panel.info",
+        "label": "Caption",
+        "side": "r"
+      },
+      {
+        "number": 4,
+        "target": "logo_panel.remove_bg",
+        "label": "Remove background box",
+        "side": "l:5"
+      },
+      {
+        "number": 5,
+        "target": "logo_panel>text:Make text logo",
+        "label": "Make text logo button",
+        "side": "r"
+      },
+      {
+        "number": 6,
+        "target": "union:logo_panel.prev_btn|logo_panel.next_btn",
+        "label": "Arrow buttons",
+        "side": "l"
+      },
+      {
+        "number": 7,
+        "target": "logo_panel.use_box",
+        "label": "Include box",
+        "side": "r"
+      },
+      {
+        "number": 8,
+        "target": "logo_panel>text:Paste link…",
+        "label": "Paste link button",
+        "side": "b"
+      },
+      {
+        "number": 9,
+        "target": "logo_panel>text:Choose file…",
+        "label": "Choose file button",
+        "side": "b"
+      },
+      {
+        "number": 10,
+        "target": "logo_panel>text:Web search",
+        "label": "Web search button",
+        "side": "b"
+      }
+    ]
+  },
+  "trailer-panel": {
+    "alt": "A close-up of the Trailer / video panel with ten numbered callouts: the video list, the thumbnail, the Start and End boxes, the Whole trailer box, the clip summary, the Preview and Choose file buttons, the Include video box and the hint line.",
+    "callouts": [
+      {
+        "number": 1,
+        "target": "video_panel.combo",
+        "label": "Video list",
+        "side": "t"
+      },
+      {
+        "number": 2,
+        "target": "video_panel.thumb",
+        "label": "Thumbnail",
+        "side": "l"
+      },
+      {
+        "number": 3,
+        "target": "video_panel.start",
+        "label": "Start box",
+        "side": "r"
+      },
+      {
+        "number": 4,
+        "target": "video_panel.end",
+        "label": "End box",
+        "side": "r"
+      },
+      {
+        "number": 5,
+        "target": "video_panel.whole",
+        "label": "Whole trailer box",
+        "side": "r"
+      },
+      {
+        "number": 6,
+        "target": "video_panel.summary",
+        "label": "Clip summary",
+        "side": "l"
+      },
+      {
+        "number": 7,
+        "target": "video_panel>text:Preview…",
+        "label": "Preview button",
+        "side": "l"
+      },
+      {
+        "number": 8,
+        "target": "video_panel>text:Choose file…",
+        "label": "Choose file button",
+        "side": "r"
+      },
+      {
+        "number": 9,
+        "target": "video_panel.use_box",
+        "label": "Include video box",
+        "side": "r"
+      },
+      {
+        "number": 10,
+        "target": "video_panel.note",
+        "label": "Hint line",
+        "side": "b"
+      }
+    ]
+  },
+  "details-form": {
+    "alt": "The details form on the right of the window with nine numbered callouts: the Title box, the Release date box, a found line with its Use button, the Description box, the Use all found details button and the Save, Skip and Undo last save buttons.",
+    "callouts": [
+      {
+        "number": 1,
+        "target": "name_edit",
+        "label": "Title box",
+        "side": "r"
+      },
+      {
+        "number": 2,
+        "target": "date_edit",
+        "label": "Release date box",
+        "side": "r"
+      },
+      {
+        "number": 3,
+        "target": "hints[releasedate].label",
+        "label": "Found line",
+        "side": "l"
+      },
+      {
+        "number": 4,
+        "target": "hints[releasedate]>text:Use",
+        "label": "Use button",
+        "side": "r"
+      },
+      {
+        "number": 5,
+        "target": "desc_edit",
+        "label": "Description box",
+        "side": "r"
+      },
+      {
+        "number": 6,
+        "target": "use_all_btn",
+        "label": "Use all found details button",
+        "side": "r"
+      },
+      {
+        "number": 7,
+        "target": "save_btn",
+        "label": "Save button",
+        "side": "r"
+      },
+      {
+        "number": 8,
+        "target": "skip_btn",
+        "label": "Skip button",
+        "side": "r"
+      },
+      {
+        "number": 9,
+        "target": "undo_btn",
+        "label": "Undo last save button",
+        "side": "r"
+      }
+    ]
+  },
+  "missing-list": {
+    "alt": "The game list with the Missing something filter: three games, each marked with a cross and a note saying what it lacks, and five numbered callouts: the System box, the Filter box, the selected game, the cross mark and the missing note.",
+    "callouts": [
+      {
+        "number": 1,
+        "target": "system_box",
+        "label": "System box",
+        "side": "r"
+      },
+      {
+        "number": 2,
+        "target": "filter_box",
+        "label": "Filter box",
+        "side": "r"
+      },
+      {
+        "number": 3,
+        "target": "row:Marmalade Moon",
+        "label": "Selected game",
+        "side": "l:4"
+      },
+      {
+        "number": 4,
+        "target": "rowpart:Turnip Turbo|mark",
+        "label": "Cross mark",
+        "side": "l"
+      },
+      {
+        "number": 5,
+        "target": "rowpart:Bramble Bandits|note",
+        "label": "Missing note",
+        "side": "r"
+      }
+    ]
+  },
+  "current-vs-new": {
+    "alt": "Two copies of the Box art panel. On the left the panel shows the picture the game has now, with the caption Current and stays as it is. On the right, after pressing the arrow, it shows a new candidate with its source and size. Six numbered callouts.",
+    "callouts": [
+      {
+        "number": 1,
+        "target": "0:box_panel.preview",
+        "label": "Current picture",
+        "side": "t"
+      },
+      {
+        "number": 2,
+        "target": "0:box_panel.info",
+        "label": "Current caption",
+        "side": "b"
+      },
+      {
+        "number": 3,
+        "target": "0:union:box_panel.prev_btn|box_panel.next_btn",
+        "label": "Arrow buttons",
+        "side": "l"
+      },
+      {
+        "number": 4,
+        "target": "1:box_panel.preview",
+        "label": "New candidate",
+        "side": "t"
+      },
+      {
+        "number": 5,
+        "target": "1:box_panel.info",
+        "label": "New caption",
+        "side": "b"
+      },
+      {
+        "number": 6,
+        "target": "1:box_panel.use_box",
+        "label": "Include box",
+        "side": "b"
+      }
+    ]
+  },
+  "review-dialog": {
+    "alt": "The Review before saving window with eight numbered callouts: the summary line, the Pictures section with the current and the new picture, the Trailer section, the Details table, the list of files that will be replaced, the list of items left as they are, and the Save and Cancel buttons.",
+    "callouts": [
+      {
+        "number": 1,
+        "target": "acc:Summary",
+        "label": "Summary line",
+        "side": "l"
+      },
+      {
+        "number": 2,
+        "target": "section:Pictures",
+        "label": "Pictures section",
+        "side": "l"
+      },
+      {
+        "number": 3,
+        "target": "section:Trailer",
+        "label": "Trailer section",
+        "side": "l"
+      },
+      {
+        "number": 4,
+        "target": "section:Details",
+        "label": "Details table",
+        "side": "l"
+      },
+      {
+        "number": 5,
+        "target": "section:Files that will be replaced",
+        "label": "Files that will be replaced",
+        "side": "l"
+      },
+      {
+        "number": 6,
+        "target": "section:Left as they are",
+        "label": "Left as they are",
+        "side": "l"
+      },
+      {
+        "number": 7,
+        "target": "save_btn",
+        "label": "Save button",
+        "side": "b"
+      },
+      {
+        "number": 8,
+        "target": "cancel_btn",
+        "label": "Cancel button",
+        "side": "b"
+      }
+    ]
+  },
+  "tools-menu": {
+    "alt": "The Tools menu opened: Install / update YouTube downloader and Reload game lists in EmulationStation, with three numbered callouts.",
+    "callouts": [
+      {
+        "number": 1,
+        "target": "action:Tools",
+        "label": "Tools menu",
+        "side": "t"
+      },
+      {
+        "number": 2,
+        "target": "menuitem:Install / update YouTube downloader",
+        "label": "Install / update YouTube downloader",
+        "side": "r"
+      },
+      {
+        "number": 3,
+        "target": "menuitem:Reload game lists in EmulationStation",
+        "label": "Reload game lists in EmulationStation",
+        "side": "r"
+      }
+    ]
+  },
+  "task-dialog-running": {
+    "alt": "The progress window of the Install / update YouTube downloader entry of the Tools menu, in the middle of a download: a blue mark, the title, a line saying what is going on, a progress bar at 56 percent, the size line and the Cancel button. Six numbered callouts.",
+    "callouts": [
+      {
+        "number": 1,
+        "target": "acc:State",
+        "label": "State mark",
+        "side": "l"
+      },
+      {
+        "number": 2,
+        "target": "acc:Heading",
+        "label": "Title",
+        "side": "r"
+      },
+      {
+        "number": 3,
+        "target": "acc:Message",
+        "label": "Message",
+        "side": "r"
+      },
+      {
+        "number": 4,
+        "target": "acc:Progress",
+        "label": "Progress bar",
+        "side": "r"
+      },
+      {
+        "number": 5,
+        "target": "acc:Size",
+        "label": "Size line",
+        "side": "r"
+      },
+      {
+        "number": 6,
+        "target": "cancel_btn",
+        "label": "Cancel button",
+        "side": "b"
+      }
+    ]
+  },
+  "task-dialog-result": {
+    "alt": "The same window when the download has finished: a green check mark, the sentence YouTube downloader installed, the version and the file it was saved to, and the OK button. Four numbered callouts.",
+    "callouts": [
+      {
+        "number": 1,
+        "target": "acc:State",
+        "label": "Check mark",
+        "side": "l"
+      },
+      {
+        "number": 2,
+        "target": "acc:Heading",
+        "label": "Result",
+        "side": "r"
+      },
+      {
+        "number": 3,
+        "target": "acc:Result",
+        "label": "What was done, and where",
+        "side": "r"
+      },
+      {
+        "number": 4,
+        "target": "ok_btn",
+        "label": "OK button",
+        "side": "b"
+      }
+    ]
+  },
+  "task-dialog-failed": {
+    "alt": "The same window when the download failed: a red cross, the plain reason, what to try, the Details button opened to show the technical text, and the Close button. Seven numbered callouts.",
+    "callouts": [
+      {
+        "number": 1,
+        "target": "acc:State",
+        "label": "Cross",
+        "side": "l"
+      },
+      {
+        "number": 2,
+        "target": "acc:Heading",
+        "label": "What failed",
+        "side": "r"
+      },
+      {
+        "number": 3,
+        "target": "acc:Message",
+        "label": "The reason",
+        "side": "r"
+      },
+      {
+        "number": 4,
+        "target": "acc:What to try",
+        "label": "What to try",
+        "side": "r"
+      },
+      {
+        "number": 5,
+        "target": "details_btn",
+        "label": "Details button",
+        "side": "l"
+      },
+      {
+        "number": 6,
+        "target": "acc:Technical details",
+        "label": "Technical details",
+        "side": "r"
+      },
+      {
+        "number": 7,
+        "target": "ok_btn",
+        "label": "Close button",
+        "side": "b"
+      }
+    ]
+  },
+  "after-save": {
+    "alt": "The window after a save: the game list shows the game with a check mark, the status line says what was written, and the Undo last save button is next to it. Three numbered callouts.",
+    "callouts": [
+      {
+        "number": 1,
+        "target": "0:row:Cinder Citadel",
+        "label": "Game row with a check mark",
+        "side": "r"
+      },
+      {
+        "number": 2,
+        "target": "1:undo_btn",
+        "label": "Undo last save button",
+        "side": "l"
+      },
+      {
+        "number": 3,
+        "target": "2:status_label",
+        "label": "Status line",
+        "side": "t"
+      }
+    ]
+  }
+}

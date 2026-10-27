@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question, or an idea you want to talk through first
+    url: https://github.com/eknowledger/scrappy/discussions
+    about: Discussions, not issues. An issue should be something to do; a question is not yet that.
+  - name: Security vulnerability
+    url: https://github.com/eknowledger/scrappy/security/advisories/new
+    about: Report privately. Read SECURITY.md first, it lists what the program downloads, runs and writes.
+  - name: Will it work on my setup?
+    url: https://github.com/eknowledger/scrappy/blob/main/COMPATIBILITY.md
+    about: The compatibility page lists what has been verified, what is only covered by tests, and what is not verified.

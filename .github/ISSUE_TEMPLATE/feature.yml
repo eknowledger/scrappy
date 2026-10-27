@@ -1,0 +1,21 @@
+name: Feature request
+description: Something it should do that it does not
+labels: ["type: feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ROADMAP.md lists what is already planned and what is deliberately not. Please look there first.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you are trying to do
+      description: Start with the problem rather than the solution. There may already be a way, or a better one.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What you have in mind
+    validations:
+      required: false

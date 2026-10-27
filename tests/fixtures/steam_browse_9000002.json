@@ -1,0 +1,59 @@
+{
+ "response": {
+  "store_items": [
+   {
+    "item_type": 0,
+    "id": 9000002,
+    "success": 1,
+    "visible": true,
+    "name": "Tidepool Tactics - Chapter 5",
+    "store_url_path": "app/9000002/Tidepool_Tactics_Chapter_5",
+    "store_url_slug": "Tidepool_Tactics_Chapter_5",
+    "appid": 9000002,
+    "type": 4,
+    "related_items": {
+     "parent_appid": 9000001
+    },
+    "categories": {
+     "supported_player_categoryids": [
+      2
+     ],
+     "feature_categoryids": [
+      62
+     ],
+     "controller_categoryids": [
+      28
+     ]
+    },
+    "assets": {
+     "asset_url_format": "steam/apps/9000002/${FILENAME}?t=1789515206",
+     "main_capsule": "f937b21160b8e2bb6de91425941316fbcffe8c13/capsule_616x353.jpg",
+     "main_capsule_2x": "f937b21160b8e2bb6de91425941316fbcffe8c13/capsule_616x353_2x.jpg",
+     "small_capsule": "1ea0d097de0c8a104a6b4d12e8955da73b305ae6/capsule_231x87.jpg",
+     "small_capsule_2x": "1ea0d097de0c8a104a6b4d12e8955da73b305ae6/capsule_231x87_2x.jpg",
+     "header": "c288bc50cc894258ab104649b715ba2980565d7e/header.jpg",
+     "header_2x": "c288bc50cc894258ab104649b715ba2980565d7e/header_2x.jpg",
+     "page_background": "73bed3f420f8088dd3c53423e45063298acdbbf4/page_bg_v6.jpg",
+     "hero_capsule": "49aa478061c7b9f7157af198c9accafb34aa659d/hero_capsule.jpg",
+     "hero_capsule_2x": "49aa478061c7b9f7157af198c9accafb34aa659d/hero_capsule_2x.jpg",
+     "community_icon": "885dc68679ec211dc665ddcd7b54cb4f0749c8f1",
+     "page_background_path": "app/9000002?t=1789515206",
+     "raw_page_background": "73bed3f420f8088dd3c53423e45063298acdbbf4/page_bg_raw.jpg",
+     "last_modified": 1789515206
+    },
+    "best_purchase_option": {
+     "packageid": 1437150,
+     "purchase_option_name": "Tidepool Tactics - Chapter 5",
+     "final_price_in_cents": "1999",
+     "formatted_final_price": "$19.99",
+     "user_can_purchase_as_gift": true,
+     "hide_discount_pct_for_compliance": false,
+     "included_game_count": 0,
+     "must_purchase_as_set": false,
+     "package_group": "default",
+     "price_cannot_be_displayed_as_discount": false
+    }
+   }
+  ]
+ }
+}

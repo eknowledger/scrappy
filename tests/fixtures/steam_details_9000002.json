@@ -1,0 +1,171 @@
+{
+ "9000002": {
+  "success": true,
+  "data": {
+   "type": "dlc",
+   "name": "Tidepool Tactics - Chapter 5",
+   "steam_appid": 9000002,
+   "required_age": 0,
+   "is_free": false,
+   "controller_support": "full",
+   "about_the_game": "<p class=\"bb_paragraph\" ><strong>Disclaimer:</strong> Purchase of this content includes only the fifth chapter. You must first download the Base Game (free) to play this DLC.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Face off against the tide-keeper behind the strange events of Tidepool Co.</strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >In the latest chapter of the Tidepool Tactics saga, you are sent deeper into the flooded lighthouse, with the harbour’s security system Captain Pickles close behind. </p><p class=\"bb_paragraph\" >Left by your only allies, your fight to get out gets harder as you reach the lowest rooms, where <i>His</i> lamp is still lit.</p><p class=\"bb_paragraph\" >Here, tides whisper and the keeper pulls the ropes. Can you stand against the water and put an end to the long night? Every step forward will test your resolve as you uncover secrets years in the making.</p><p class=\"bb_paragraph\" ><strong>Features:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Wet and echoing rooms await you in this new section of the lighthouse.</p></li><li><p class=\"bb_paragraph\" >In this new layer of the harbour you will meet the people living in the dark. They may help you, but can they be trusted? </p></li><li><p class=\"bb_paragraph\" >Solve puzzles and cross hazards with the new GrapplePack tools.</p></li><li><p class=\"bb_paragraph\" >As you reach the centre of the harbour, you will discover some of its oldest secrets.</p></li></ul><p class=\"bb_paragraph\" >Will you get out of the lighthouse, or will the tide take you?</p><p class=\"bb_paragraph\" ></p>",
+   "short_description": "In the latest chapter of the Tidepool Tactics saga, you are sent deeper into the flooded lighthouse, with the harbour's security system Captain Pickles close behind. ",
+   "fullgame": {
+    "appid": "9000001",
+    "name": "Tidepool Tactics"
+   },
+   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/c288bc50cc894258ab104649b715ba2980565d7e/header.jpg?t=1789515206",
+   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/1ea0d097de0c8a104a6b4d12e8955da73b305ae6/capsule_231x87.jpg?t=1789515206",
+   "website": "https://example.invalid/",
+   "developers": [
+    "Kettle Works"
+   ],
+   "publishers": [
+    "Kettle Works"
+   ],
+   "platforms": {
+    "windows": true,
+    "mac": false,
+    "linux": false
+   },
+   "categories": [
+    {
+     "id": 2,
+     "description": "Single-player"
+    },
+    {
+     "id": 21,
+     "description": "Downloadable Content"
+    },
+    {
+     "id": 28,
+     "description": "Full controller support"
+    },
+    {
+     "id": 62,
+     "description": "Family Sharing"
+    }
+   ],
+   "genres": [
+    {
+     "id": "1",
+     "description": "Action"
+    },
+    {
+     "id": "25",
+     "description": "Adventure"
+    },
+    {
+     "id": "23",
+     "description": "Indie"
+    }
+   ],
+   "screenshots": [
+    {
+     "id": 0,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/0ab7f523e0f7ac6940603a68c349374e9c59d28f/ss_cd22a6fed289e7295ec38134b70b2079583c19b5.600x338.jpg?t=1789515206",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/0ab7f523e0f7ac6940603a68c349374e9c59d28f/ss_cd22a6fed289e7295ec38134b70b2079583c19b5.1920x1080.jpg?t=1789515206"
+    },
+    {
+     "id": 1,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/14f049d0d6f21bdcd2474f60f3af79ec2563c051/ss_60bcec27dab5fdd8bfb5cdeaad513b60bfa4680b.600x338.jpg?t=1789515206",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/14f049d0d6f21bdcd2474f60f3af79ec2563c051/ss_60bcec27dab5fdd8bfb5cdeaad513b60bfa4680b.1920x1080.jpg?t=1789515206"
+    },
+    {
+     "id": 2,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/ca5b5db0287a27f2ae1cfbd265b0d16b96b25b93/ss_71da84c7a0d4ccc11bc7db960191700417b038b1.600x338.jpg?t=1789515206",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/ca5b5db0287a27f2ae1cfbd265b0d16b96b25b93/ss_71da84c7a0d4ccc11bc7db960191700417b038b1.1920x1080.jpg?t=1789515206"
+    },
+    {
+     "id": 3,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/7babecae127bea00caffb4972f577fcbbe90f0b8/ss_f257a87a4afad982a0451c2a8f8bb4517201807f.600x338.jpg?t=1789515206",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/7babecae127bea00caffb4972f577fcbbe90f0b8/ss_f257a87a4afad982a0451c2a8f8bb4517201807f.1920x1080.jpg?t=1789515206"
+    },
+    {
+     "id": 4,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/b88e938987306cb4d69dc241673efe03fa7b61d6/ss_0ad4456b8439e79bb2c31529096adf3c590b2147.600x338.jpg?t=1789515206",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/b88e938987306cb4d69dc241673efe03fa7b61d6/ss_0ad4456b8439e79bb2c31529096adf3c590b2147.1920x1080.jpg?t=1789515206"
+    },
+    {
+     "id": 5,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/495978cd42ae1f0af74ecd4c0047e850063c3096/ss_d843eb2c051f8115a63b0f9ab0075570cc2ccd10.600x338.jpg?t=1789515206",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/495978cd42ae1f0af74ecd4c0047e850063c3096/ss_d843eb2c051f8115a63b0f9ab0075570cc2ccd10.1920x1080.jpg?t=1789515206"
+    },
+    {
+     "id": 6,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/00068cbcbbbda379145cddd70cffc28a96fafe94/ss_e49275f941ae7c5c49020cc13f9ec5f162eeb2f2.600x338.jpg?t=1789515206",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/00068cbcbbbda379145cddd70cffc28a96fafe94/ss_e49275f941ae7c5c49020cc13f9ec5f162eeb2f2.1920x1080.jpg?t=1789515206"
+    },
+    {
+     "id": 7,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/3d09e1b5dbd2fc0a95262b3f670942351de3b581/ss_13ec4b1aaa7bdef9a36d812251af92ca9914db1d.600x338.jpg?t=1789515206",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/3d09e1b5dbd2fc0a95262b3f670942351de3b581/ss_13ec4b1aaa7bdef9a36d812251af92ca9914db1d.1920x1080.jpg?t=1789515206"
+    },
+    {
+     "id": 8,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/c0410f4e0fff7501feca87f5b47fb07a1a276f85/ss_d2ed8410f9edbef101f027bd98ff1303334f97ac.600x338.jpg?t=1789515206",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/c0410f4e0fff7501feca87f5b47fb07a1a276f85/ss_d2ed8410f9edbef101f027bd98ff1303334f97ac.1920x1080.jpg?t=1789515206"
+    },
+    {
+     "id": 9,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/55244c7ec6b7b61afdfad05fb11a899fd566740e/ss_6246aa7eeca00dd1815de9c7ead1d1fb4609248e.600x338.jpg?t=1789515206",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/55244c7ec6b7b61afdfad05fb11a899fd566740e/ss_6246aa7eeca00dd1815de9c7ead1d1fb4609248e.1920x1080.jpg?t=1789515206"
+    },
+    {
+     "id": 10,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/d4f53f79a6cc23afebace4034b5c41e48256bee1/ss_24561df6cddfabd12da54ef537c9fb7193eb9fcc.600x338.jpg?t=1789515206",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/d4f53f79a6cc23afebace4034b5c41e48256bee1/ss_24561df6cddfabd12da54ef537c9fb7193eb9fcc.1920x1080.jpg?t=1789515206"
+    },
+    {
+     "id": 11,
+     "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/4eafa0087be504fe2b70ada841281cc798053ea6/ss_e9ffe745f2f02f24145a15b396b18023bb373d43.600x338.jpg?t=1789515206",
+     "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/4eafa0087be504fe2b70ada841281cc798053ea6/ss_e9ffe745f2f02f24145a15b396b18023bb373d43.1920x1080.jpg?t=1789515206"
+    }
+   ],
+   "movies": [
+    {
+     "id": 45744371,
+     "name": "Tidepool Tactics - Chapter 5 Gameplay Trailer",
+     "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730154077/c4515afe92e7ef067b07c9a1b2ea750276a0707c/movie_600x337.jpg?t=1770832787",
+     "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/9000002/864974406/9f1e3fdd33593c9b2a0c89062674beab9a155909/691268017/dash_av1.mpd?t=1770832787",
+     "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/9000002/864974406/9f1e3fdd33593c9b2a0c89062674beab9a155909/691268017/dash_h264.mpd?t=1770832787",
+     "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/9000002/864974406/9f1e3fdd33593c9b2a0c89062674beab9a155909/691268017/hls_264_master.m3u8?t=1770832787",
+     "highlight": true
+    },
+    {
+     "id": 79567016,
+     "name": "The Lighthouse Keeper | Tidepool Tactics - Chapter 5 Cinematic Trailer",
+     "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686726717/74d3a72529b0d8b329288839c8e4d13e5f13c5d5/movie_600x337.jpg?t=1768070135",
+     "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/9000002/501539854/5b0eab32df7e21de3a78f3557bbc2719bc57854a/493419722/dash_av1.mpd?t=1768070135",
+     "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/9000002/501539854/5b0eab32df7e21de3a78f3557bbc2719bc57854a/493419722/dash_h264.mpd?t=1768070135",
+     "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/9000002/501539854/5b0eab32df7e21de3a78f3557bbc2719bc57854a/493419722/hls_264_master.m3u8?t=1768070135",
+     "highlight": true
+    },
+    {
+     "id": 28424090,
+     "name": "Welcome Home | Tidepool Tactics - Chapter 5 Cinematic Trailer",
+     "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552554728/cd4c9ae82e42f0fcdf4728e14291448205e6a6b2/movie_600x337.jpg?t=1765308592",
+     "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/9000002/105015474/8bac73aa3322dfbf09c6e70b8bf61ee0a93b10bd/786023263/dash_av1.mpd?t=1765308592",
+     "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/9000002/105015474/8bac73aa3322dfbf09c6e70b8bf61ee0a93b10bd/786023263/dash_h264.mpd?t=1765308592",
+     "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/9000002/105015474/8bac73aa3322dfbf09c6e70b8bf61ee0a93b10bd/786023263/hls_264_master.m3u8?t=1765308592",
+     "highlight": true
+    },
+    {
+     "id": 86437159,
+     "name": "Tidepool Tactics - Chapter 5 Teaser Trailer",
+     "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782513813/62a8571c50817cdc652dcb38dccb963d0dec1a31/movie_600x337.jpg?t=1770832788",
+     "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/9000002/100009714/8114312f49df058540ea995c6aae183788c415da/843738497/dash_av1.mpd?t=1770832788",
+     "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/9000002/100009714/8114312f49df058540ea995c6aae183788c415da/843738497/dash_h264.mpd?t=1770832788",
+     "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/9000002/100009714/8114312f49df058540ea995c6aae183788c415da/843738497/hls_264_master.m3u8?t=1770832788",
+     "highlight": false
+    }
+   ],
+   "release_date": {
+    "coming_soon": false,
+    "date": "Feb 18, 2026"
+   },
+   "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/9000002?t=1789515206",
+   "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9000002/73bed3f420f8088dd3c53423e45063298acdbbf4/page_bg_raw.jpg?t=1789515206"
+  }
+ }
+}

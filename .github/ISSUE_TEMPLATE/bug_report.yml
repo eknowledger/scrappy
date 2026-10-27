@@ -1,0 +1,79 @@
+name: Bug report
+description: Something does not work, or did something you did not expect.
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks. Please fill in as much as you can. Everything asked for below is read-only.
+        If you only want to say how it went on your setup (works or not), use the "I tried it on my setup" form instead.
+        **Before you paste anything, remove what is personal**: your user name, host names and addresses on your network,
+        and the names of files you would rather not share. Game titles are fine.
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did it go wrong?
+      options:
+        - The installer (deploy/install.sh)
+        - Starting the program
+        - Searching (Steam or YouTube)
+        - Pictures or the trailer (preview, conversion)
+        - Saving, or the review window
+        - Undo
+        - EmulationStation does not show the result
+        - Something else (describe below)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Scrappy version
+      description: "Output of `cat /userdata/system/scrappy/VERSION` on the Batocera (a commit id and a build time)."
+      placeholder: "22fc18e built 2026-10-26T08:18:28Z"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Batocera
+      description: Batocera version, and whether it is a PC (x86_64) or an ARM board (aarch64). `uname -m` tells you the second.
+      placeholder: "Batocera v41, x86_64"
+    validations:
+      required: true
+  - type: input
+    id: theme
+    attributes:
+      label: Theme and system
+      description: The EmulationStation theme and the system (folder name under /userdata/roms) the game is in.
+      placeholder: "theme: (name), system: switch"
+    validations:
+      required: false
+  - type: textarea
+    id: probe
+    attributes:
+      label: The environment probe
+      description: |
+        Run on the Batocera (over ssh or in a terminal) and paste the whole output. It is read-only; the only network traffic
+        is two requests to EmulationStation on this machine.
+        `cd /userdata/system/scrappy && PYTHONPATH=$PWD/vendor:$PWD python3 tools/probe_environment.py`
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+      description: The game's title (or file name), what you pressed, and the message in the status line at the bottom of the window.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: The log
+      description: |
+        The last 50 lines of `/userdata/system/logs/scrappy.log` (what the launcher captured), and, if it exists,
+        of `/userdata/system/scrappy/logs/scrappy.log` (the program's own log).
+        `tail -n 50 /userdata/system/logs/scrappy.log`
+      render: text
+    validations:
+      required: false

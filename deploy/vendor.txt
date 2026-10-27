@@ -1,0 +1,14 @@
+# Third-party code that is shipped WITH the app because the box's own copy is broken.
+# Format (one line per architecture, whitespace separated):  <sha256>  <file name>  <https url on files.pythonhosted.org>
+# The architecture a pin belongs to is the platform tag in its file name: x86_64 or aarch64 (anything else is an error).
+# install.sh asks the Batocera for `uname -m` (x86_64 -> x86_64; aarch64 or arm64 -> aarch64) and ships only that pin.
+#
+# Pillow: the system Pillow 10.3.0 on the Batocera cannot read or write JPEG ("Wrong JPEG library version: library is 80,
+# caller expects 90"). Pillow 11.3.0's manylinux wheel bundles its own libjpeg-turbo (pillow.libs), so it works there.
+# install.sh downloads the wheel on the Mac into ~/.cache/scrappy/wheels (never into git), refuses it if the
+# sha256 differs from this pin, ships it in the tarball and unpacks it on the box into <app folder>/vendor/.
+# To update: pick the new wheels on PyPI (cp311, manylinux x86_64 AND aarch64, the same Pillow version), put their sha256
+# and URL here, run the tests. 32-bit machines (armv7l, i686) have no pin and are refused. A Batocera with another Python
+# than 3.11 needs new (cpXY) pins.
+91da1d88226663594e3f6b4b8c3c8d85bd504117d043740a8e0ec449087cc494  pillow-11.3.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl  https://files.pythonhosted.org/packages/13/92/dcdd147ab02daf405387f0218dcf792dc6dd5b14d2573d40b4caeef01059/pillow-11.3.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+7d1aa4de119a0ecac0a34a9c8bde33f34022e2e8f99104e47a3ca392fd60e37d  pillow-11.3.0-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.whl  https://files.pythonhosted.org/packages/d5/90/442068a160fd179938ba55ec8c97050a612426fae5ec0a764e345839f76d/pillow-11.3.0-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.whl

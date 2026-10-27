@@ -1,0 +1,77 @@
+name: I tried it on my setup
+description: Tell us how it went on your Batocera, another EmulationStation frontend, a theme or a board. Works or not.
+labels: ["compatibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        COMPATIBILITY.md lists what has been verified, what is only covered by tests, and what is not verified. A report
+        moves a line from one to the other, and "it works" is as useful as "it does not". Everything asked for below is read-only.
+        Remove anything personal (user names, host names, addresses on your network) before you paste.
+  - type: dropdown
+    id: result
+    attributes:
+      label: How did it go?
+      options:
+        - It works
+        - It works with problems (describe below)
+        - It does not work
+        - The installer refused (describe below)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Scrappy version
+      description: "Output of `cat /userdata/system/scrappy/VERSION` on the Batocera."
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Frontend and version
+      description: Batocera (which version), RetroBat, or another EmulationStation based system. Only Batocera v41 is verified.
+      placeholder: "Batocera v41"
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware
+      description: "PC or board, and `uname -m` (only x86_64 and aarch64 are accepted by the installer)."
+      placeholder: "mini PC, x86_64"
+    validations:
+      required: true
+  - type: input
+    id: theme
+    attributes:
+      label: Theme
+      description: The EmulationStation theme, and whether the logo, box art, image and trailer show up in it after a save.
+    validations:
+      required: false
+  - type: textarea
+    id: probe
+    attributes:
+      label: The environment probe
+      description: |
+        `cd /userdata/system/scrappy && PYTHONPATH=$PWD/vendor:$PWD python3 tools/probe_environment.py`
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: selftest
+    attributes:
+      label: The on-box self test
+      description: |
+        Runs in a throw-away folder and touches none of your games. It prints BOX SELFTEST OK when everything passes.
+        `cd /userdata/system/scrappy && PYTHONPATH=$PWD/vendor:$PWD python3 tools/box_selftest.py`
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you try, and what happened?
+      description: One game from search to Save is a complete test. Did EmulationStation show the result? Did Undo work?
+    validations:
+      required: true

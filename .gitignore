@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# local runtime data (never commit game media or caches)
+cache/
+backups/
+journal/
+bin/
+*.mp4
+*.log
+.DS_Store
+
+# artwork cache of tools/fetch_demo_art.py (lives outside the repository by default; never commit it)
+scrappy-demo-art/

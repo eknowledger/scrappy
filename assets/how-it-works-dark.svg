@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 230" width="960" height="230" role="img"
+     aria-label="A game the scraper missed goes to Scrappy. Scrappy looks it up on Steam and YouTube, shows you the candidates, converts what you pick to the theme's formats and saves it with a backup and an Undo into the system's images and videos folders and its gamelist.xml. EmulationStation then shows it.">
+  <title>How Scrappy works</title>
+  <style>
+    .box { fill: #161b22; stroke: #aab2c0; stroke-width: 1.6; }
+    .hot { fill: #3a2d0a; stroke: #ffc83d; stroke-width: 2; }
+    .t   { font: 600 15px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #e8eaf0; }
+    .s   { font: 13px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #aab2c0; }
+    .a   { stroke: #aab2c0; stroke-width: 1.8; fill: none; marker-end: url(#h); }
+    .h   { fill: #e8eaf0; }
+  </style>
+  <defs>
+    <marker id="h" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" class="h"/>
+    </marker>
+  </defs>
+
+  <rect class="box" x="8" y="52" width="136" height="86" rx="10"/>
+  <text class="t" x="76" y="86" text-anchor="middle">A game</text>
+  <text class="s" x="76" y="108" text-anchor="middle">the scraper found</text>
+  <text class="s" x="76" y="126" text-anchor="middle">nothing for</text>
+
+  <path class="a" d="M148 95H178"/>
+
+  <rect class="box" x="182" y="52" width="136" height="86" rx="10"/>
+  <text class="t" x="250" y="86" text-anchor="middle">Steam, YouTube</text>
+  <text class="s" x="250" y="108" text-anchor="middle">title, pictures,</text>
+  <text class="s" x="250" y="126" text-anchor="middle">trailer, text</text>
+
+  <path class="a" d="M322 95H352"/>
+
+  <rect class="hot" x="356" y="30" width="250" height="130" rx="10"/>
+  <text class="t" x="481" y="58" text-anchor="middle">Scrappy</text>
+  <text class="s" x="481" y="82" text-anchor="middle">1  looks the game up</text>
+  <text class="s" x="481" y="102" text-anchor="middle">2  you review and pick</text>
+  <text class="s" x="481" y="122" text-anchor="middle">3  converts to the theme's formats</text>
+  <text class="s" x="481" y="142" text-anchor="middle">4  saves, with a backup and Undo</text>
+
+  <path class="a" d="M610 95H640"/>
+
+  <rect class="box" x="644" y="52" width="150" height="86" rx="10"/>
+  <text class="t" x="719" y="82" text-anchor="middle">System folder</text>
+  <text class="s" x="719" y="104" text-anchor="middle">images/  videos/</text>
+  <text class="s" x="719" y="122" text-anchor="middle">gamelist.xml</text>
+
+  <path class="a" d="M798 95H828"/>
+
+  <rect class="box" x="832" y="52" width="120" height="86" rx="10"/>
+  <text class="t" x="892" y="86" text-anchor="middle" style="font-size:14px">EmulationStation</text>
+  <text class="s" x="892" y="108" text-anchor="middle">shows it</text>
+
+  <text class="s" x="480" y="200" text-anchor="middle">Nothing is written until you confirm in the review window. Undo last save puts everything back.</text>
+</svg>
