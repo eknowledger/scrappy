@@ -513,7 +513,7 @@ def test_workflows_are_pinned_least_privilege_and_complete():
     assert '["3.11", "3.12"]' in tests and "ubuntu-latest" in tests
     assert "sudo apt-get install -y -qq libegl1 libgl1 libxkbcommon0 libdbus-1-3 libfontconfig1 libglib2.0-0 ffmpeg" in tests
     assert "pip install -r requirements-dev.txt PyQt5" in tests and "QT_QPA_PLATFORM: offscreen" in tests
-    assert "python -m pytest -q -rs" in tests
+    assert "python -m pytest -v -rs" in tests
     assert "! grep -qi \"skipped\"" in tests and "tests/test_ui_qt.py" in tests                    # the window tests may not be skipped
     assert re.search(r"required:\n    name: unit tests\n    needs: test\n    if: always\(\)", tests)
     assert "fail-fast: false" in tests

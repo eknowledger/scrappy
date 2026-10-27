@@ -53,7 +53,7 @@ jobs:
       - run: python -m pip install -r requirements-dev.txt PyQt5
 
       - name: Tests
-        run: python -m pytest -q -rs
+        run: python -m pytest -v -rs
 
       - name: The window tests ran
         # ⚠️ -rs above prints skip reasons; this step fails the job if the Qt test files were skipped anyway

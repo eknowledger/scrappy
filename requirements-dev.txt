@@ -1,4 +1,5 @@
 pytest
+pytest-timeout
 pillow
 numpy
 requests>=2.31
