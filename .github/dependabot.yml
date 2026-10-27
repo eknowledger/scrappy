@@ -29,3 +29,9 @@ updates:
         update-types:
           - "patch"
           - "minor"
+    # requests and urllib3 are NOT dependencies Scrappy installs: Batocera ships them, and the floors in requirements-dev.txt
+    # are the versions it ships, which the tests and the downloader are written against. Raising the floors would make the
+    # development environment drift away from the machine the program runs on.
+    ignore:
+      - dependency-name: "requests"
+      - dependency-name: "urllib3"
