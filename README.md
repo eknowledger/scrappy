@@ -21,6 +21,8 @@ A desktop utility for Batocera: it finds a game's logo, box art, picture, traile
 
 <p align="center"><img src="docs/screenshots/07-desktop.png" alt="The Scrappy window on a desktop, with its title bar and icon, after a search: the game list on the left, the logo, box art, image and trailer found for the game in the middle, and the details on the right" width="860"></p>
 
+<p align="center"><a href="https://youtu.be/ZLmj5S1XHdE"><img src="https://raw.githubusercontent.com/eknowledger/scrappy/main/assets/demo-poster.jpg" alt="A 90 second video: Scrappy finds a logo, box art, a picture and a trailer for a game that had nothing, shows them for review and saves them with a backup. Click to watch on YouTube." width="860"></a><br><sub>90 second demo on YouTube (a real search; the waiting is sped up).</sub></p>
+
 Batocera's built-in scraper finds nothing for many newer games, so they sit in the list without a logo, a picture, a trailer or a
 description. Scrappy looks the game up on Steam and YouTube, shows you what it found next to what the game has now, converts what you
 choose to the sizes and formats the theme plays, and writes it into the system's `images/` and `videos/` folders and its `gamelist.xml`,
